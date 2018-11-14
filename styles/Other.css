@@ -1,0 +1,154 @@
+@charset "UTF-8";
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #303030;
+	font-family: source-sans-pro;
+	background-color: #FFFFFF;
+	font-style: normal;
+	font-weight: 400;
+}
+#wrapper {
+	background-color: #FFFFFF;
+	width: 100%;
+	min-width: 740px;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+#portrait img{
+	width: 100%;
+	padding-top: 7px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	box-shadow: 1px 1px 15px #999999;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+#sidebar {
+	margin-right: 5%;
+	margin-top: 5%;
+	width: 15%;
+	float: left;
+	text-align: right;
+}
+#mainarticle {
+	width: 39%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	text-align: justify;
+	margin-bottom: 5%;
+}
+footer {
+	clear: left;
+	background-image: url(../images/bg5.jpg);
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 0px;
+}
+#portrait {
+	width: 28%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+h1 {
+	font-style: normal;
+	font-weight: 400;
+	font-family: source-sans-pro;
+	margin-top: 0px;
+}
+#top {
+	width: 20%;
+	background-color: #FFFFFF;
+	float: left;
+	height: 100%;
+	text-align: left;
+	background-image: url(../images/bg4.jpg);
+	min-width: 180px;
+}
+#mainnav {
+	background-color: #FFFFFF;
+	width: 80%;
+	float: left;
+	height: 100%;
+	min-width: 760px;
+}
+#mainnav a {
+	text-decoration: none;
+	list-style-type: none;
+	display: block;
+	float: left;
+	text-align: center;
+	width: 16.66%;
+	color: #000000;
+	background-image: url(../images/bg2.jpg);
+	padding-top: 5px;
+}
+#mainnav ul {
+	list-style-type: none;
+}
+#wrapper_top {
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	height: 50px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#nav1 {
+	width: 80%;
+}
+#nav2 {
+	width: 110%;
+}
+#nav3 {
+	width: 100%;
+}
+#nav4 {
+	width: 100%;
+}
+#nav5 {
+	width: 80%;
+}
+#nav6 {
+	width: 94%;
+}
+a {
+}
+#mainnav a:hover, #mainnav a.active, #mainnav a.focus, #mainnav a.thispage {
+	background-image: url(../images/bg8.jpg);
+}
+footer h5 {
+	padding-top: 4px;
+	font-style: normal;
+	font-weight: lighter;
+}
+#piano {
+	float: left;
+	margin-top: 13%;
+	width: 40%;
+	margin-right: 10%;
+	margin-left: 0%;
+	margin-bottom: 5%;
+}
+#piano img {
+	width: 100%;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	box-shadow: 1px 1px 15px #999999;
+}

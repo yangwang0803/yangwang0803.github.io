@@ -1,0 +1,55 @@
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" ftp_hostname="ftp://ftp.yang-wang.com" ftp_rootfolder="//public_html/wedding" exportTarget="FTP" domain="http://www.yang-wang.com/wedding" resolutions="1x" timestamp="1481230402157">
+  <folder name="css">
+    <file name="site_global.css" crc="3814705040"/>
+    <file name="master_a-master.css" crc="481575439" ref="index"/>
+    <file name="index.css" crc="4218710557" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="169078940" ref="index"/>
+    <file name="museutils.js" crc="3851988764" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="169177150" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="271560940" ref="index"/>
+    <file name="jquery.watch.js" crc="3842844514" ref="index"/>
+    <file name="webpro.js" crc="4067903014" ref="index"/>
+    <file name="musewpslideshow.js" crc="4265225696" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4075157096" ref="index"/>
+    <file name="touchswipe.js" crc="474750357" ref="index"/>
+    <file name="pie.js" crc="3831537696" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="511146689" ref="index"/>
+    <file name="require.js" crc="4108833657" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="compressed_cropped_darken_3.jpg" crc="4036244644" ref="index"/>
+    <file name="img_1628_small.jpg" crc="3882341739" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="img_1892_small.jpg" crc="162819198" seo="true" ref="index"/>
+    <file name="img_1927_small.jpg" crc="4065853086" seo="true" ref="index"/>
+    <file name="img_1628_small68x45.jpg" crc="434093705" seo="true" ref="index"/>
+    <file name="img_1892_small68x45.jpg" crc="4034670583" seo="true" ref="index"/>
+    <file name="img_1927_small-crop-u5066.jpg" crc="362517925" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="arrows-mn_close.png" crc="236761104" seo="true" ref="index"/>
+    <file name="arrows-mn_arrow_right.png" crc="4062137678" ref="index"/>
+  </folder>
+  <file name="index.html" crc="111156434" mt="1481230370773" redirect="true"/>
+  <site/>
+  <renditions>
+    <rendition device="desktop">
+      <page name="Wedding" filename="index.html" muse_href="page:U74" master="U65">
+        <breakpoint uid="U2151" maxwidth="1160" minwidth="0" squishy="false"/>
+        <anchor name="Top" html_id="top" muse_href="anchor:U69:U202" includeInBPs="U2151"/>
+        <anchor name="when_where" html_id="when_where" muse_href="anchor:U69:U5090" includeInBPs="U2151"/>
+        <anchor name="details" html_id="details" muse_href="anchor:U69:U5093" includeInBPs="U2151"/>
+        <anchor name="rsvp" html_id="rsvp" muse_href="anchor:U69:U5096" includeInBPs="U2151"/>
+        <anchor name="story" html_id="story" muse_href="anchor:U69:U5099" includeInBPs="U2151"/>
+      </page>
+      <masterPage name="A-Master" master="U61" uid="U65">
+        <breakpoint uid="U2154" maxwidth="1160" minwidth="0" squishy="false"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U61">
+        <breakpoint uid="U2152" maxwidth="1160" minwidth="0" squishy="false"/>
+      </masterPage>
+    </rendition>
+  </renditions>
+</manifest>
