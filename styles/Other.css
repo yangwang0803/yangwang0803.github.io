@@ -5,7 +5,7 @@ body {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	color: #303030;
-	font-family: source-sans-pro;
+	font-family: 'Source Sans Pro', sans-serif;
 	background-color: #FFFFFF;
 	font-style: normal;
 	font-weight: 400;
@@ -67,7 +67,7 @@ footer {
 h1 {
 	font-style: normal;
 	font-weight: 400;
-	font-family: source-sans-pro;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin-top: 0px;
 }
 #top {
