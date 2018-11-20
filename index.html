@@ -2,41 +2,245 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Yang Wang</title>
 <link href="styles/main.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
-<!--[if lte IE 8]>
-
-<script type="text/javascript" src="html5shiv.js"></script>
-
-<![endif]-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 <body>
-<div id="wrapper">
-  <div id="wrapper_top">
-    <header id="top">
-      <h1> &nbsp;&nbsp;Yang Wang</h1>
-    </header>
-    <nav id="mainnav">
-      <ul>
-        <li id="nav1"><a href="index.html" class="thispage">HOME</a></li>
-        <li id="nav2"><a href="experience.html">EXPERIENCE</a></li>
-        <li id="nav3"><a href="research.html">RESEARCH</a></li>
-        <li id="nav4"><a href="teaching.html">TEACHING</a></li>
-        <li id="nav5"><a href="other.html">OTHER</a></li>
-        <li id="nav6"><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
+<div id="wrapper"> <a class="anchor" id="about"></a>
+  <div id="wrapper-top" class="shadow-1">
+    <div id="top">
+      <header>
+        <h1> Yang Wang</h1>
+      </header>
+    </div>
+    <div id="mainnav">
+      <nav>
+        <ul>
+          <li id="nav6"><a href="#contact">CONTACT</a></li>
+          <li id="nav5"><a href="#life">LIFE</a></li>
+          <li id="nav2"><a href="#resume">RESUME</a></li>
+          <li id="nav1"><a href="#about">ABOUT</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
-  <div class="centered" id="portrait"> <img src="images/portrait_3.jpg" alt=""/></div>
-  <article id="mainarticle">
-    <h2>About me</h2>
-    <p> I am a 5th year PhD student in the department of <a href="http://www.ieor.berkeley.edu/" target="_blank">Industrial Engineering and Operations Research</a>, <a href="http://berkeley.edu/index.html" target="_blank">University of California Berkeley</a>.&nbsp; My advisor is <a href="http://www.ieor.berkeley.edu/People/Faculty/kaminsky.htm" target="_blank">Prof. Philip Kaminsky</a>. My research mainly focuses on supply chain management in biopharmaceutical industry.&nbsp;</p>
-  </article>
+  <div id="wrapper-top-ura"></div>
+  <div class="section">
+    <div class="row">
+      <div class="column left">
+        <div id="about-portrait"><img src="images/portrait.jpg" alt=""/></div>
+      </div>
+      <div class="column right">
+        <article id="about-mainarticle">
+          <h2>About me</h2>
+          <p> I am a Senior Operations Research Analyst at <a href="https://www.fedex.com/en-us/home.html" target="_blank">FedEx Express</a>, Operations Research & Spatial Analytics team. I work with billions of GPS data and try to make sense of it.</p>
+          <p>I received my PhD degree in Operations Research at University of California Berkely, <a href="https://ieor.berkeley.edu/" target="_blank">Industrial Engineering & Operations Research</a>. My advisor is Professor <a href="https://ieor.berkeley.edu/people/faculty/kaminsky" target="_blank">Phil Kaminsky</a>.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <a class="anchor" id="resume"></a>
+  <div class="section">
+    <article style="width:100%">
+      <h2>Education</h2>
+      <table>
+        <colgroup>
+        <col span="1" style="width:75%;">
+        <col span="1" style="text-align:right, width:15%;">
+        </colgroup>
+        <tr>
+          <td><strong>University of California Berkeley</strong>, Berkeley CA, USA </td>
+          <td align="right">2012 - 2017</td>
+        </tr>
+        <tr>
+          <td class="td_1">Ph.D, Industrial Engineering and Operations Research</td>
+          <td></td>
+        </tr>
+        <tr class="blank_row">
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <td><strong>Georgia Institute of Technology</strong>, Atlanta GA, USA</td>
+          <td align="right">2010 - 2012</td>
+        </tr>
+        <tr>
+          <td>M.S.E., Industrial Engineering</td>
+          <td></td>
+        </tr>
+        <tr class="blank_row">
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <td><strong>University of Michigan</strong>, Ann Arbor MI, USA</td>
+          <td align="right">2008 - 2010</td>
+        </tr>
+        <tr>
+          <td>B.S.E., Industrial and Operations Research</td>
+          <td></td>
+        </tr>
+        <tr class="blank_row">
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <td><strong>Shanghai Jiaotong University</strong>, Shanghai, China</td>
+          <td align="right">2006 - 2010</td>
+        </tr>
+        <tr>
+          <td>B.S.E., Electrical and Computer Engineering</td>
+          <td></td>
+        </tr>
+      </table>
+      <h2>Work</h2>
+      <table>
+        <colgroup>
+        <col span="1" style="width:75%;">
+        <col span="1" style="width:15%;">
+        </colgroup>
+        <tbody>
+          <tr>
+            <td><strong>FedEx Express</strong>, Memphis TN, USA</td>
+            <td align="right">2017 - present</td>
+          </tr>
+          <tr>
+            <td>Senior Operations Research Analyst, Business Analytics & Operations Research</td>
+            <td></td>
+          </tr>
+          <tr class="blank_row">
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td><strong>Oracle</strong>, Redwood Shores CA, USA</td>
+            <td align="right">2015</td>
+          </tr>
+          <tr>
+            <td>Software developer summer internship, Oracle Public Cloud</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Projects</h2>
+      <table>
+        <colgroup>
+        <col span="1" style="width:85%;">
+        </colgroup>
+        <tbody>
+          <tr>
+            <td><strong>Kaggle featured competition, RSNA Pneumonia Detection Challenge, Silver medal </strong><a href="https://www.kaggle.com/c/rsna-pneumonia-detection-challenge" target="_blank">[Link]</a><a href="https://github.com/yangwang0803/rsna_pneumonia" target="_blank">[Code]</a></td>
+          </tr>
+          <tr>
+            <td>Rank: Phase1 ~130/1500 (Top 8%) / Phase2 49/346 (Top 14%)  </td>
+          </tr>
+          <tr class="blank_row">
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td><strong>Kaggle featured competition, TrackML Particle Tracking Challenge, Silver medal </strong></strong><a href="https://www.kaggle.com/c/trackml-particle-identification" target="_blank">[Link]</a><a href="https://github.com/yangwang0803/trackml" target="_blank">[Code]</a></td>
+          </tr>
+          <tr>
+            <td>Rank: 19/656 (Top 3%)</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Publications</h2>
+      <table>
+        <colgroup>
+        <col span="1" style="width:85%;">
+        </colgroup>
+        <tbody>
+          <tr>
+            <td><strong>Analysis of deterministic control and its improvements for an inventory problem with multiproduct batch differentiation</strong></td>
+          </tr>
+          <tr>
+            <td>HS Ahn, S Jasin, P Kaminsky, Y Wang, Operations Research 66 (1), 58-76 <a href="https://pubsonline.informs.org/doi/abs/10.1287/opre.2017.1647" target="_blank">[Link]</a></td>
+          </tr>
+          <tr class="blank_row">
+            <td colspan="1"></td>
+          </tr>
+          <tr>
+            <td><strong>Analytical models for biopharmaceutical operations and supply chain management: a survey of research literature</strong></td>
+          </tr>
+          <tr>
+            <td>P Kaminsky, Y Wang, Pharmaceutical Bioprocessing 3 (1), 61-73 <a href="https://insights.ovid.com/phbiop/201502000/01720275-201502000-00008" target="_blank">[Link]</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Skills</h2>
+      <p><strong> Programming: </strong> Python, Java, Scala, SQL, Shell scripting, SAS, HTML, JavasSript, C++ <br>
+        <strong> Optimization: </strong> Gurobi, CPLEX <br>
+        <strong>Visualization: </strong>Spotfire</p>
+    </article>
+  </div>
+  <hr>
+  <a class="anchor" id="life"></a>
+  <div class="section">
+    <div class="row">
+      <div class="column left">
+        <h2>Piano</h2>
+        <p>I play piano, and I transcribe songs from my favorite animes. Welcome to subscribe my <a href="http://www.youtube.com/user/dongdongjoe" target="_blank">YouTube channel</a>. </p>
+      </div>
+      <div class="column right">
+        <div id="life-piano"><img src="images/piano_bw.jpg" alt=""/></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column left">
+        <h2>Math & Physics</h2>
+        <p>I also casually learn math and physics during my leisure time. Here are some of my favorite resources:</p>
+        <ul>
+          <li><a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank">3Blue1Brown</a></li>
+          <li><a href="https://www.youtube.com/channel/UCN8wTUlSAroLslWyf87E2pw" target="_blank">eigenchris</a></li>
+          <li><a href="https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJg" target="_blank">Mathologer</a></li>
+        </ul>
+      </div>
+      <div class="column right">
+        <div id="life-math"><img src="images/math_bw.jpg" alt=""/></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h2>Cat</h2>
+        <p>Oh you see the cat above? Yes I have a cat called Naonao, means naughty boy. I adopt him from <a href="https://www.sfspca.org/" target="_blank">SPCA</a> San Francisco.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="slideshow-container">
+          <div class="mySlides" id="life-cat-1"> <img src="images/cat_1.png" alt=""> </div>
+          <div class="mySlides" id="life-cat-2"> <img src="images/cat_2.jpg" alt=""> </div>
+          <div class="mySlides" id="life-cat-3"> <img src="images/cat_3.png" alt=""> </div>
+        </div>
+        <br>
+        <div style="text-align:center"> <span class="dot" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span> <span class="dot" onclick="currentSlide(3)"></span> </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <a class="anchor" id="contact"></a>
+  <div class="section">
+    <div>
+      <h2>Contact</h2>
+      <p>You can find me here.</p>
+      <div class="contact-container">
+        <div class="contact-icon"><a href="https://github.com/yangwang0803" target="_blank" class="fab fa-github-square"></a></div>
+        <div class="contact-icon"><a href="https://www.linkedin.com/in/yangwang0803/" target="_blank" class="fab fa-linkedin"></a></div>
+        <div class="contact-icon"><a href="https://www.youtube.com/channel/UCuXC1Wds7yM0Hsr8J7IYtRw" target="_blank" class="fab fa-youtube-square"></a></div>
+        <div class="contact-icon"><a href="https://www.kaggle.com/yangwang0803" target="_blank" class="fab fa-kaggle"></a> </div>
+      </div>
+    </div>
+  </div>
+  <hr>
   <footer>
-    <h5> &copy; Copyright 2013 by Yang Wang. All rights reserved. </h5>
+    <h5> &copy; Copyright 2013 by Yang Wang. All rights reserved. Last updated on 2018-11-20.</h5>
   </footer>
 </div>
+<script type="text/javascript" src="scripts/shadow.js"></script> 
+<script type="text/javascript" src="scripts/scroll.js"></script> 
+<script type="text/javascript" src="scripts/slides.js"></script>
 </body>
 </html>
