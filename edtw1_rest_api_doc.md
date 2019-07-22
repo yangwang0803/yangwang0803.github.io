@@ -41,9 +41,9 @@ Name | Type | Required | Description
 
 ## Sample call
 * Shell
-```
-curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d '{"station":"NCQA","service_type":"po" ,"latitude":33.93,"longitude":-84.34,"commit_dow":"1", "commit_time":630}' edtw1poc-comedic-cat.app.wtcdev2.paas.fedex.com/edtw/prediction
-```
+
+curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d '{"station":"NCQA","service_type":"po" ,"latitude":33.93,"longitude":-84.34,"commit_dow":"1","commit_time":630}' edtw1poc-comedic-cat.app.wtcdev2.paas.fedex.com/edtw/prediction
+
 
 * Python
 ```Python
